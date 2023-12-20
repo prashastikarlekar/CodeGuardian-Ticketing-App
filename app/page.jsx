@@ -26,7 +26,7 @@ const Dashboard = async () => {
 				{tickets &&
 					uniqueCategories?.map((uniqueCategory, categoryIndex) => (
 						<div key={categoryIndex} className='mb-4'>
-							<h2>{uniqueCategory}</h2>
+							<h2 className='p-2'>{uniqueCategory}</h2>
 							<div className='lg:grid grid-cols-2 xl:grid-cols-4'>
 								{tickets
 									.filter((ticket) => ticket.category === uniqueCategory)

@@ -18,6 +18,7 @@ module.exports = {
 			},
 			colors: {
 				nav: "#18222f",
+				// page: "bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100",
 				page: "#2b3441",
 				card: "#47566a",
 				"card-hover": "#4f5e74",
