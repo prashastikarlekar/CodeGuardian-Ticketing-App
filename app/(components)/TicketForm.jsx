@@ -13,7 +13,7 @@ const TicketForm = () => {
 		priority: 1,
 		progress: 0,
 		status: "not started",
-		category: "Hardware PRoblem",
+		category: "Hardware Problem",
 	};
 	const [formData, setFormData] = useState(startingTicketData);
 	const handleChange = (e) => {
